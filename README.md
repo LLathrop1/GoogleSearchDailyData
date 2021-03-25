@@ -86,6 +86,7 @@ for (i in c(1:365)) {
 
 The code is set for the last 365 days.  When running this, Google blocks you on the calls due to the amount of data being called at once.  *Using it as chunks worked best for what we needed. * 
 
+# Saving the data
 After all of the data was saved in the table, write the *csv* to save it for later.
 
 ```r
@@ -94,4 +95,4 @@ After all of the data was saved in the table, write the *csv* to save it for lat
 write.csv(query_data, file="google search console.csv", row.names = FALSE)
 ```
 
-I hope this helps those looking for some gudines and walkthrough on the code.
+### I hope this helps those looking for some gudines and walkthrough on the code.
