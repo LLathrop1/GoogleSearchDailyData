@@ -13,15 +13,17 @@ options("googleAuthR.scopes.selected" =
 
 #Add your client.id and client.secret here
 
-options("googleAuthR.client_id" = "518070240618-35n426t5hat4n0obpuacb0n3fm9072fo.apps.googleusercontent.com")
-options("googleAuthR.client_secret" = "H7qo15HNLA0duHrtQkHpHVsb")
+options("googleAuthR.client_id" = "INSERT CLIENT ID")
+options("googleAuthR.client_secret" = "INSERT SECRET")
 googleAuthR::gar_auth()
 
 #Stop and authenticate in your browser
 
+#Getting to your site.  You might have to use the prefix 'sc-domain:' the the page.com part.  I found that using https://www. gave me an error
+website<- "sc-domain:PAGE.COM"
 
-website<- "sc-domain:owllytics.com"
 
+#Google search console starts only three days ago.
 start_date <- Sys.Date() - 3
 end_date <- Sys.Date() - 3
 
