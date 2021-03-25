@@ -31,7 +31,7 @@ During the setup of the Google cloud API set up, I had to use URI redirect as lo
 
 To set up the Google search console API, head over to [Google Cloud Console](https://cloud.google.com/apis)
 
-*Here is where the API looks like when you search:*
+*Here is where the API looks like when you search*
 
 ![Image API look in could console](https://github.com/LLathrop1/GoogleSearchDailyData/blob/main/images/google%20search%20console%20api%20location.png)
 
