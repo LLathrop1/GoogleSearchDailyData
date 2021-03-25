@@ -37,7 +37,7 @@ To set up the Google search console API, head over to [Google Cloud Console](htt
 
 Once you enable the API from the Google cloud console, you need to set up a client OAuth.  This code is set up for the the OAuth 2.0
 
-*Here is where you find the CLIENT ID and SECRET KEY
+*Here is where you find the CLIENT ID and SECRET KEY*
 
 ![Image of the OAuth 2.0 setup](https://github.com/LLathrop1/GoogleSearchDailyData/blob/main/images/client%20id%20ocation.png)
 
